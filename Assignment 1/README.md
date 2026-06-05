@@ -47,6 +47,8 @@ Workflow:
 | Tag Key       | Action           |
 | Tag Value     | Auto-Start       |
 
+<img width="2960" height="612" alt="image" src="https://github.com/user-attachments/assets/6644802d-7b53-4eb8-90d5-46cf1d2409b2" />
+
 ---
 
 ## IAM Role Configuration
@@ -64,6 +66,8 @@ These permissions allow Lambda to:
 * Start EC2 instances
 * Stop EC2 instances
 * Write logs to CloudWatch
+
+<img width="2812" height="1336" alt="image" src="https://github.com/user-attachments/assets/bbebd3ba-b3e0-428b-82f1-45a3e04b5f9b" />
 
 ---
 
@@ -133,7 +137,7 @@ def lambda_handler(event, context):
         "started": start_ids
     }
 ```
-
+<img width="3368" height="1638" alt="image" src="https://github.com/user-attachments/assets/94a89a7a-4978-4fe5-8042-d6a0bf773db7" />
 ---
 
 ## Testing Procedure
@@ -168,12 +172,17 @@ Sample Output:
 }
 ```
 
+<img width="2364" height="1344" alt="image" src="https://github.com/user-attachments/assets/f63f3b39-a85d-45b3-8661-dd91794c09c3" />
+
+
 ### Step 4
 
 Verified the EC2 dashboard and confirmed:
 
 * The instance tagged `Auto-Stop` was stopped.
 * The instance tagged `Auto-Start` was started.
+
+<img width="2882" height="454" alt="image" src="https://github.com/user-attachments/assets/526608fe-2fdb-4604-9e39-471ed5a9fe44" />
 
 ---
 
